@@ -1,4 +1,7 @@
 import math
+import os
+import datetime
+from lesson3.lesson3_blank_lines import SOME_CONSTANT
 
 
 class GeometricFigure:
