@@ -115,10 +115,16 @@ class E(D, C):
 print(__name__)
 
 if __name__ == '__main__':
-    amphib = AmphibiousVehicle()
-    print(__name__)
+    # amphib = AmphibiousVehicle()
+    # print(__name__)
     # amphib.ride()
     # amphib.swim()
     # print(amphib.__class__.__mro__)
     # print(E.__mro__)
-    elem = Element(10, 20)
+    # elem = Element(10, 20)
+
+    d = D()
+    print(isinstance(d, D))
+    print(isinstance(d, B))
+    print(isinstance(d, C))
+    print(issubclass(d.__class__, A))
