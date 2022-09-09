@@ -4,7 +4,8 @@
    2. last name
    3. email
    4. tech_stack
-   5. salary_expectations
+   5. main skill
+   6. main skill grade 
 3. create @property method get_full_name. Method should return concatenated first and last names.
 4. create @classmethod generate_candidates. As an argument method should receive path to csv file.
 5. generate_candidates should return a list of Candidate objects.

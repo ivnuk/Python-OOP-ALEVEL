@@ -8,3 +8,63 @@
   File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 24, in validate_email
     raise EmailIsAlreadyTakenException()
 EmailIsAlreadyTakenException
+2022-09-09 20:50:52.484777 | Traceback (most recent call last):
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 12, in wrapper
+    result = func(*args, **kwargs)
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 46, in main
+    emp = Employee("John", 123, 'johndoe1222@gmail.com')
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 26, in __init__
+    self.validate_email()
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 41, in validate_email
+    raise EmailIsAlreadyTakenException()
+EmailIsAlreadyTakenException
+2022-09-09 20:51:52.740250 | Traceback (most recent call last):
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 14, in wrapper
+    result = func(*args, **kwargs)
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 48, in main
+    emp = Employee("John", 123, 'johndoe1222@gmail.com')
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 28, in __init__
+    self.validate_email()
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 43, in validate_email
+    raise EmailIsAlreadyTakenException()
+EmailIsAlreadyTakenException
+2022-09-09 20:52:25.571863 | Traceback (most recent call last):
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 14, in wrapper
+    result = func(*args, **kwargs)
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 48, in main
+    emp = Employee("John", 123, 'johndoe1222@gmail.com')
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 28, in __init__
+    self.validate_email()
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 43, in validate_email
+    raise EmailIsAlreadyTakenException()
+EmailIsAlreadyTakenException
+2022-09-09 21:04:59.344438 | Traceback (most recent call last):
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 14, in wrapper
+    result = func(*args, **kwargs)
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 57, in main
+    emp = Employee("John", "Doe", 123, 'johndoe1222@gmail.com')
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 28, in __init__
+    self.validate_email()
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 52, in validate_email
+    raise EmailIsAlreadyTakenException()
+EmailIsAlreadyTakenException
+2022-09-09 21:05:03.536895 | Traceback (most recent call last):
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 14, in wrapper
+    result = func(*args, **kwargs)
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 57, in main
+    emp = Employee("John", "Doe", 123, 'johndoe1222@gmail.com')
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 28, in __init__
+    self.validate_email()
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 52, in validate_email
+    raise EmailIsAlreadyTakenException()
+EmailIsAlreadyTakenException
+2022-09-09 21:08:52.062902 | Traceback (most recent call last):
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 14, in wrapper
+    result = func(*args, **kwargs)
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 57, in main
+    emp = Employee("John", "Doe", 123, 'johndoe1222@gmail.com')
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 28, in __init__
+    self.validate_email()
+  File "C:/ALEVEL/PYONLINE2/lesson4/lesson4_practice_review.py", line 52, in validate_email
+    raise EmailIsAlreadyTakenException()
+EmailIsAlreadyTakenException
