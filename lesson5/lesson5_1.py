@@ -105,6 +105,8 @@ class Element:
             result.append(cls(**entry))  # cls(**entry) === Element(**entry)
         return result
 
+    def from_somth(self, fp=None, url=None):
+        pass
 
 if __name__ == '__main__':
     # a = generate_random(length=200)
