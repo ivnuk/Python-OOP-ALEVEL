@@ -57,6 +57,7 @@ class Candidate:
 if __name__ == '__main__':
     # candidate_list = Candidate.from_csv('candidates.csv')
     candidate_list = Candidate.from_csv(FILE_URL)
+    print('AAAAAAAAAAaaaaaaaaaAAAAAAA')
     [print(x.first_name, x.tech_stack) for x in candidate_list]
 
     # cls(**kwargs) == Candidate(**kwargs)
